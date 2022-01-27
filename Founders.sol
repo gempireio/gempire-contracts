@@ -925,7 +925,7 @@ contract Founders is ERC1155 {
     string public constant name = "Gempire.io Founder Cards";
     string public constant symbol = "FOUNDER";
     uint256 private _totalSupply = 1085;
-    string public baseURI = "https://gempire.io/nfts/founders/";
+    string public baseURI = "https://nfts.gempire.io/founders/";
     mapping(address => bool) public admins;
 
     /**
